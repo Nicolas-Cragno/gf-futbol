@@ -1,0 +1,54 @@
+.new-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    height: 90%;
+}
+
+.new-txt-header{
+    font-style: italic;
+}
+
+.new-txt-h1-block{  /* para que el titulo quede en 2 lineas */
+    display: inline-block;
+    width: 50%;
+}
+
+.new-txt-h1{
+    font-weight: bold;
+    font-size: 6.5vh;
+}
+
+.new-txt-h6{
+    font-size: 2.5vh;
+}
+
+.new-txt-p-block{ /* para que el comentario quede en una caja de color -gris- */
+    background-color: #F2F2F2;
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    font-weight: bolder;
+}
+
+.new-txt-footer{
+    display: block;
+    align-items: center;
+}
+
+.new-txt-footer-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.new-txt-footer-right{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    justify-content: left;
+}

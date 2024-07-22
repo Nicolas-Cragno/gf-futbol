@@ -1,0 +1,13 @@
+.long-txt{
+    color: white;
+    font-size: xx-large;
+}
+
+.long-txt-txt{
+    font-size: 8vh;
+}
+
+.long-txt-btn{
+    background-color: #d6030d;
+    font-weight: bold;
+}

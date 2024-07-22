@@ -1,0 +1,39 @@
+.app{
+  text-align: center;
+  background-color: black;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.pages{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.pages-principal{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 70vh;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+.txt{
+  overflow: hidden; /*Si el texto no entra en su contenedor se oculta*/
+}
+
+.ul-li{
+  list-style: none;
+  display: inline-flex;
+}
+
+.li{
+  padding: 1vh;
+}

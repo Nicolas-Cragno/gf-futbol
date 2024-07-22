@@ -1,0 +1,10 @@
+.txt-description-block{
+    display: inline-flex;
+    justify-content: center;
+    align-items:baseline;
+}
+
+.txt-description-p{
+    font-weight: bold;
+    color: #ffffff;
+}

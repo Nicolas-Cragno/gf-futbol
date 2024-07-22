@@ -1,0 +1,34 @@
+.long-bar{/**/
+    position: relative;
+    bottom: 1vh;
+}
+
+.item-bar{ /**/
+    background-color: #ffffff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 25vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+}
+
+.item-bar:hover{ /**/
+    background-color: #D31718;
+}
+
+.item-bar-link{
+    text-decoration: none;
+}
+
+.item-bar-title{ /**/
+    padding: 3vh;
+    color: #D31718;
+}
+
+.item-bar-title:hover{ /* Ver como hacer que se pinte de blanco al "hover" del .item-bar directamente */
+    color: #ffffff;
+}
+
+

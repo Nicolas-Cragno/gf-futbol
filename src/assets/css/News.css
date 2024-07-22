@@ -1,0 +1,14 @@
+.news-page{
+    background-color: #ffffff;
+    z-index: 80;
+}
+
+.news-page-left{
+    display: flex;
+    justify-content: right;
+    align-items: center;   
+}
+
+/*
+.news-page-right{}
+*/
