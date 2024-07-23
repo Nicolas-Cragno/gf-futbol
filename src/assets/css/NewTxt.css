@@ -11,9 +11,14 @@
     font-style: italic;
 }
 
-.new-txt-h1-block{  /* para que el titulo quede en 2 lineas */
+.new-txt-h1-block{  /* para que el titulo quede en 2 lineas si solo hubiese un h1 */
     display: inline-block;
-    width: 50%;
+    width: 100%;   /* en ese caso este parametro tendria que ser 50% mas o menos */
+}
+
+.new-txt-h2{
+    font-weight: bold;
+    font-size: 6vh;
 }
 
 .new-txt-h1{

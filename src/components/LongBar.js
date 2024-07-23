@@ -9,7 +9,7 @@ export default function LongBar() {
     <div className='long-bar'>
       <ItemBar
       img={LogoTraining}
-      title={'ENTRENAMIENTO'}
+      title={'ENTRENÁ'}
       ></ItemBar>
       <ItemBar
       img={LogoFutbol}

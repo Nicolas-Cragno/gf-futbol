@@ -1,6 +1,7 @@
 .long-bar{/**/
     position: relative;
     bottom: 1vh;
+    z-index: 91;
 }
 
 .item-bar{ /**/
@@ -8,10 +9,25 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 30vh;
+    width: 35vh;
     height: 25vh;
     padding-right: 2vh;
     padding-left: 2vh;
+    @media screen and (max-width: 1500px){
+        width: 20vh;        
+    }
+    @media screen and (max-width:1200px){
+            width: 19vh;
+            height: 14vh;
+    }
+    @media screen and (max-width:1000px){
+        width: 14vh;
+        height: 14vh;
+    }
+    @media screen and (max-width:800px){
+        width: 10vh;
+        height: 14vh;
+    }
 }
 
 .item-bar:hover{ /**/
@@ -25,10 +41,17 @@
 .item-bar-title{ /**/
     padding: 3vh;
     color: #D31718;
+    @media screen and (max-width:1200px){
+        padding: 2vh;
+    }
+    @media screen and (max-width:1000px){
+        padding: 1vh;
+    }
+    @media screen and (max-width:800px){
+        display: none;
+    }
 }
 
 .item-bar-title:hover{ /* Ver como hacer que se pinte de blanco al "hover" del .item-bar directamente */
     color: #ffffff;
 }
-
-

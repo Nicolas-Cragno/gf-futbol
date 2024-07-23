@@ -5,4 +5,8 @@
     padding-right: 10vh;
     padding-left: 10vh;
     margin-top: 10vh;
+    @media screen and (max-width: 1500px) {
+        padding-right: 1vh;
+        padding-left: 1vh;
+    }
 }

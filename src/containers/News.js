@@ -18,7 +18,19 @@ export default function News() {
           <Col md={6} className='news-page-right'>
             <NewTxt
             date={'21 de julio de 2024'}
-            title={'GANO BURZACO'}
+            title1={'GANÓ'}
+            title2={'BURZACO'}
+            txt={'A pesar de haber empezado abajo, el negro pudo afirmarse y dar vuelta el partido. Se impuso por 2-1 ante un duro rival.'}
+            words={'"Estamos contentos por la victoria, pero debemos mejorar algunos aspectos."'}
+            name={'Pablo Fidani'}
+            description={'Entrenador de GF Burzaco'}
+            ></NewTxt>
+          </Col>
+          <Col md={12} className='news-page-center'> {/* USO SOLO CUANDO SE BLOQUEA EL NEWS-PAGE-LEFT */}
+            <NewTxt
+            date={'21 de julio de 2024'}
+            title1={'GANÓ'}
+            title2={'BURZACO'}
             txt={'A pesar de haber empezado abajo, el negro pudo afirmarse y dar vuelta el partido. Se impuso por 2-1 ante un duro rival.'}
             words={'"Estamos contentos por la victoria, pero debemos mejorar algunos aspectos."'}
             name={'Pablo Fidani'}

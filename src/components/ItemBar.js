@@ -11,7 +11,7 @@ export default function ItemBar(props) {
         <ImgLogo
         img={img}
         ></ImgLogo>
-        <h5 className='item-bar-title '>{title}</h5>
+        <h5 className='item-bar-title txt'>{title}</h5>
       </Link>
     </div>
   )
