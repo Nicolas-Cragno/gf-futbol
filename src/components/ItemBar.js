@@ -4,9 +4,9 @@ import ImgLogo from './ImgLogo.js';
 import { Link } from 'react-router-dom';    
 
 export default function ItemBar(props) {
-    const {link, img, title, target} = props;
+    const {link, img, title, target, className} = props;
   return (
-    <div className='item-bar txt'>
+    <div className={className} >
       <Link to={link} target={target} className='item-bar-link'>
         <ImgLogo
         img={img}

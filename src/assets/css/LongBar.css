@@ -30,8 +30,28 @@
     }
 }
 
-.item-bar:hover{ /**/
-    background-color: #D31718;
+.item-bar-1:hover{ /**/
+    /*background-color: #D31718;*/
+    background: url('../statics/ImgEntrenamiento.png');
+    background-size: cover;
+}
+
+.item-bar-2:hover{ /**/
+    /*background-color: #D31718;*/
+    background: url('../statics/ImgMasculino.png');
+    background-size: cover;
+}
+
+.item-bar-3:hover{ /**/
+    /*background-color: #D31718;*/
+    background: url('../statics/ImgFemenino.png');
+    background-size: cover;
+}
+
+.item-bar-4:hover{ /**/
+    /*background-color: #D31718;*/
+    background: url('../statics/ImgCamiseta.png');
+    background-size: cover;
 }
 
 .item-bar-link{
@@ -52,6 +72,8 @@
     }
 }
 
-.item-bar-title:hover{ /* Ver como hacer que se pinte de blanco al "hover" del .item-bar directamente */
-    color: #ffffff;
+/* Ver como hacer que se pinte de blanco al "hover" del .item-bar directamente 
+.item-bar-title:hover{  
+color: #ffffff;
 }
+*/
