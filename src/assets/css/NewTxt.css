@@ -1,7 +1,9 @@
 .new-txt{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* SIN USO para que no se salgan del box los textos.
+    align-items: center; 
+    */
     text-align: left;
     /* dimensiones previas a poner el contenido en Carousel, ahora se igualaron las medidas con la imagen
     width: 100%;
@@ -15,6 +17,16 @@
     font-style: italic;
 }
 
+.new-txt-box{
+    width: 100%;
+    height: 80px; /* valor en px para que el cuadro de texto tenga el mismo alto y no se muevan los elementos */
+    overflow-y: scroll;
+    @media screen and (max-width:1200px) {
+        height: 150px;
+    }
+   
+}
+
 .new-txt-h1-block{  /* para que el titulo quede en 2 lineas si solo hubiese un h1 */
     display: inline-block;
     width: 100%;   /* en ese caso este parametro tendria que ser 50% mas o menos */
@@ -23,41 +35,67 @@
 .new-txt-h2{
     font-weight: bold;
     font-size: 6vh;
+    @media screen and (max-width: 780px) {
+        font-size: 4vh;
+    }
 }
 
 .new-txt-h1{
     font-weight: bold;
     font-size: 6.5vh;
+    @media screen and (max-width: 780px) {
+        font-size: 4.5vh;
+    }
 }
 
 .new-txt-h6{
     font-size: 2.5vh;
+    @media screen and (max-width: 780px) {
+        font-size: 2.5vh;
+    }
 }
 
 .new-txt-p-block{ /* para que el comentario quede en una caja de color -gris- */
     background-color: #F2F2F2;
     display: inline-block;
+    justify-content: center;
     text-align: center;
+    overflow-y: scroll;
     width: 80%;
+    height: 50px;
     margin-top: 2vh;
     margin-left: 3vh;
     font-weight: bolder;
+    @media screen and (max-width:1200px){
+        height: 70px;
+    }
+}
+
+.new-txt-footer-box{
+    width: 100%;
+    height: 60px; /* valor en px para que el cuadro de texto tenga el mismo alto y no se muevan los elementos */
 }
 
 .new-txt-footer{
     display: block;
     align-items: center;
+    font-size: 1.8vh;
 }
 
 .new-txt-footer-left{
     display: flex;
     justify-content: left;
     align-items: center;
+    @media screen and (max-width:800px){
+        justify-content: center;
+    }
 }
 
 .new-txt-footer-right{
     display: flex;
     justify-content: left;
     align-items: center;
-    justify-content: left;
+    @media screen and (max-width:800px){
+        justify-content: center;
+    }
 }

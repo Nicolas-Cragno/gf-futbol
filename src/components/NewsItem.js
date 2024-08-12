@@ -5,7 +5,7 @@ import NewTxt from './NewTxt';
 import { Container, Row, Col } from 'react-bootstrap';
 
 export default function NewsItem(props) {
-    const {img, date, title1, title2, txt, words, imgface, name, description} = props;
+    const {img, date, title1, title2, txt, words, imgface, imglink, imgtarget, name, description} = props;
   return (
     <div className='pages news-page'>
       <Container>
@@ -23,6 +23,8 @@ export default function NewsItem(props) {
             txt={txt}
             words={words}
             imgface={imgface}
+            imglink={imglink}
+            imgtarget={imgtarget}
             name={name}
             description={description}
             ></NewTxt>
@@ -35,6 +37,8 @@ export default function NewsItem(props) {
             txt={txt}
             words={words}
             imgface={imgface}
+            imglink={imglink}
+            imgtarget={imgtarget}
             name={name}
             description={description}
             ></NewTxt>

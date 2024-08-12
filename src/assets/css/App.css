@@ -2,22 +2,17 @@
   text-align: center;
   background-color: black;
   overflow: hidden;
+  /* El cliente no quiere que la palabra se corte al no entrar en la línea
   word-wrap: break-word;
+  */
 }
 
 .pages{
+  width: 100%;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 90vh;
-}
-
-.pages-principal{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 70vh;
 }
 
 .link{

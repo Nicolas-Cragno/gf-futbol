@@ -18,7 +18,7 @@ export default function NewsAlert(props) {
                 <Col xs={12} className='new-txt-h1-block'>
                     <h1 className='new-txt-h1'>{title2}</h1>
                 </Col>
-                <Col xs={12}>
+                <Col xs={12} className='new-txt-box'>
                     <h6 className='new-txt-h6'>{txt}</h6>
                 </Col>
                 {/* ELEMENTOS UNICOS PARA NewsAlertItem (Información para enventos puntuales) */}

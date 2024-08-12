@@ -53,6 +53,22 @@ export default function News() {
           */}
         </Carousel.Item>
         <Carousel.Item>
+          <NewsItem
+            img={Img3}
+            date={'24 de julio de 2024 | 18:40 hs'}
+            title1={'PRUEBA DE'}
+            title2={'JUGADORES'}
+            txt={'Este miércoles 24 probamos jugadores para nuestro plantel de fútbol masculino. Acercate con la indumentaria adecuada.'}
+            words={'INDUMENTARIA: Botines, short y medias de fútbol.'}
+            imgface={ImgMap}
+            name={'Predio GF Burzaco | '}
+            description={'Floresta'}
+            imglink={'https://www.google.com.ar/maps/place/Instituto+Cultural+Y+Deportivo+Luz+Y+Fuerza/@-34.6255525,-58.4924532,19.21z/data=!4m6!3m5!1s0x95bcc9c6b75826ed:0x709bd790c0f08727!8m2!3d-34.625613!4d-58.4926002!16s%2Fg%2F11c7hb40t3?entry=tts&g_ep=EgoyMDI0MDcxNy4wKgBIAVAD'}
+            imgtarget={'_blank'}
+          ></NewsItem>
+        </Carousel.Item>
+        {/* 
+        <Carousel.Item>
           <NewsAlertItem
           img={Img3}
           date={'24 de julio de 2024 | 18:40 hs'}
@@ -63,15 +79,14 @@ export default function News() {
           mapslocation={'https://www.google.com.ar/maps/place/Instituto+Cultural+Y+Deportivo+Luz+Y+Fuerza/@-34.6255525,-58.4924532,19.21z/data=!4m6!3m5!1s0x95bcc9c6b75826ed:0x709bd790c0f08727!8m2!3d-34.625613!4d-58.4926002!16s%2Fg%2F11c7hb40t3?entry=tts&g_ep=EgoyMDI0MDcxNy4wKgBIAVAD'}
           location={'Remedios de Escalada de San Martín, Floresta | Predio GF Burzaco'}
           ></NewsAlertItem>
-          {/*
           <Carousel.Caption>
             <h5>Third slide label</h5>
             <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             </p>
           </Carousel.Caption>
-          */}
         </Carousel.Item>
+        */}
       </Carousel>
     </div>
   )
