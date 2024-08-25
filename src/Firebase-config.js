@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
-import { getFirestore } from "firebase/firestore"; // BASE DE DATOS
+import { getDatabase, ref, onValue } from "firebase/database";
 
 const firebaseConfig = {
   apiKey: "AIzaSyC3ojI4H6D_srf55aQnxs5X8QfaTw6o1vw",
@@ -15,4 +15,13 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-export const db = getFirestore(app);  // BASE DE DATOS
+
+const db = getDatabase();
+const refNoticias = ref (db, "noticias/");
+
+export const getNoticias = () => {
+  onValue(refNoticias, (snap) =>{
+    let data = snap.val();
+    
+  })
+}

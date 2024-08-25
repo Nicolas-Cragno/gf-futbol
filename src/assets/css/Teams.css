@@ -1,0 +1,40 @@
+.teams-page{
+    width: 100%;
+    height: 100%;
+    z-index: 97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams-img{
+    background-image: url('../statics/Predio.png');
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    z-index: 96;
+    @media screen and (max-width: 1200px){
+        height: 30vh;
+    }
+}
+
+.teams-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams-txt-box{
+    margin-top: 2vh;
+}
+
+.teams-txt-h3{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.teams-txt-h2{
+    color: black;
+    background-color: #F2000D;
+    text-transform: uppercase;
+}

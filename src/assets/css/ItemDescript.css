@@ -1,0 +1,30 @@
+.item-descript{
+    color: #fff;
+    margin: 2vh;
+}
+
+.item-descript-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-descript-right{
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.item-descript-img{
+    width: 9vh;
+    height: 9vh;
+}
+
+/*
+
+.item-descript-title{}
+
+.item-descript-txt1{}
+
+.item-descript-txt2{}
+*/

@@ -1,0 +1,21 @@
+.short-item{
+    width: 70vh;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: #686868;
+    margin: 1vh;
+    border-radius: 2.5%;
+}
+
+.short-item-img{
+    width: 18vh;
+    height: 18vh;
+}
+
+.short-item-txt{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

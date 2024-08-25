@@ -6,21 +6,28 @@
     position: relative;
     z-index: 90;
     @media screen and (max-width:1500px) {
+        /* unifique todo con la de 800px
         background: url('../statics/FeedBackground1500px.png');
+        */
+        background: url('../statics/FeedBackground800px.png');
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         z-index: 90;
     }
     @media screen and (max-width:1000px) {
+        /* unifique todo con la de 800px
         background: url('../statics/FeedBackground1000px.png');
+        */
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
         z-index: 90;
     }
     @media screen and (max-width:800px) {
+        /* unifique todo con la de 800px
         background: url('../statics/FeedBackground800px.png');
+        */
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;

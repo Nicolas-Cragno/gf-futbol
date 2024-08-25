@@ -9,6 +9,9 @@ import ImgFace2 from '../assets/statics/PabloFidani.png';
 import { Container, Row, Col, Carousel, ExampleCarouselImage } from 'react-bootstrap';
 import NewsItem from '../components/NewsItem';
 import NewsAlertItem from '../components/NewsAlertItem';
+import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js";
+
+
 
 export default function News() {
   return (

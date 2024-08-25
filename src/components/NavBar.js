@@ -6,19 +6,19 @@ export default function NavBar() {
   return (
     <div>
         <ul className='navbar-ul'>
-            <Link to={'/'} className='link'>
-            <li className='navbar-li'>
-                MARCA
-            </li>
-            </Link>
-            <Link to={'/'} className='link'>
+            <Link to={'/nosotros'} className='link'>
             <li className='navbar-li'>
                 NOSOTROS
             </li>
             </Link>
-            <Link to={'/'} className='link'>
+            <Link to={'/selectivos'} className='link'>
             <li className='navbar-li'>
-                GRUPOS
+                SELECTIVOS
+            </li>
+            </Link>
+            <Link to={'/indumentaria'} className='link'>
+            <li className='navbar-li'>
+                ROPA
             </li>
             </Link>
         </ul>

@@ -16,9 +16,7 @@ export default function Home() {
           <Col xs={12}>
             <News></News>
           </Col>
-          <Col xs={12}>
-            <Contact></Contact>
-          </Col>
+
         </Row>
       </Container>
     </div>
