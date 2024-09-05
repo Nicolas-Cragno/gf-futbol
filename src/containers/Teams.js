@@ -22,49 +22,45 @@ export default function Teams() {
           <Col xs={12} className='teams-img'></Col> 
           {/* ------------------------------------- - - - - FUTBOL MASCULINO ↓↓*/}
           <Col md={4} className='teams-txt-box'> 
-            <h3 className='teams-txt-h3'>Futbol Masculino</h3>
+            <h3 className='teams-txt-h3'>Masculino</h3>
             <h2 className='teams-txt-h2'>Fútbol 11</h2>
             <ItemDescript
             img={Logo}
             title={'GF Burzaco'}
-            txt1={'Luz y Fuerza | Villa Crespo'}
-            txt2={'NP Torneos'}
+            txt2={'Lunes y miércoles 19:45 hs'}
             ></ItemDescript>
             <ItemDescript
             img={Logo}
             title={'GF Buenos Aires'}
-            txt1={'Sede | Caballito'}
-            txt2={'Torneo Interno Ferro'}
+            txt2={'Lunes y miércoles 19:45 hs'}
             ></ItemDescript>
           </Col>
           {/* ------------------------------------- - - - - FUTBOL FEMENINO ↓↓*/}
           <Col md={4} className='teams-txt-box'> 
-            <h3 className='teams-txt-h3'>Futbol Femenino</h3>
+            <h3 className='teams-txt-h3'>Femenino</h3>
             <h2 className='teams-txt-h2'>Fútbol 5</h2>
             <ItemDescript
             img={Logo}
             title={'GF Santa Rita'}
-            txt1={'Luz y Fuerza | Villa Crespo'}
-            txt2={'Torneo Fui a la pelota'}
+            txt2={'Jueves 20:45 hs'}
             ></ItemDescript>
           </Col>
-          {/* ------------------------------------- - - - - ENTRENAMIENTOS ↓↓ */}
+          {/* ------------------------------------- - - - - ENTRENAMIENTOS ↓↓  */}
           <Col md={4} className='teams-txt-box'>
-            <h3 className='teams-txt-h3'>Entrenamiento</h3>
+            <h3 className='teams-txt-h3'>Entrenamiento Libre</h3>
             <h2 className='teams-txt-h2'>2 grupos</h2>
             <ItemDescript
               img={LogoEntrenamiento}
-              title={'Masculino'}
-              txt1={'Luz y Fuerza | Villa Crespo'}
+              title={'F11 Masculino'}
               txt2={'Lunes y miércoles 19:45 hs'}
             ></ItemDescript>
             <ItemDescript
               img={LogoEntrenamiento}
-              title={'Femenino'}
-              txt1={'Luz y Fuerza | Villa Crespo'}
+              title={'F5 Femenino'}
               txt2={'Jueves 20:45 hs'}
             ></ItemDescript>
           </Col>
+         
         </Row>
       </Container>
     </div>

@@ -13,7 +13,7 @@ export default function About() {
         <Container>
         <Row>
           <Col xs={12} className='about-img'></Col>
-          <Col xs={12}>
+          <Col xs={12} className='about-txt'>
             <InfoTxt
                 title={"Sobre nosotros..."}
                 txt={"GF Predio es un espacio pensado para el jugador amateur que quiere entrenar y competir seriamente. Brindamos sesiones de entrenamientos de manera profesional, con los mejores profesores y los materiales adecuados para la práctica del deporte que tanto amamos. También buscamos competir en el mejor nivel posible. Te invitamos a compartir esto que tanto nos apasiona, SUMATE!"}

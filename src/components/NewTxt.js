@@ -22,6 +22,7 @@ export default function NewTxt(props) {
                     <h6 className='new-txt-h6'>{txt}</h6>
                 </Col>
                 {/* ELEMENTOS UNICOS PARA NewsItem (Comentarios para noticias) UNIFICADO CON LOCACIONES*/}
+                {/* descartados por el momento
                 <Col xs={12} className='new-txt-footer-box'>
                     <Container className='new-txt-footer'>
                         <Row> 
@@ -41,6 +42,7 @@ export default function NewTxt(props) {
                         </Row>
                     </Container>
                 </Col>
+                */}
                 {/* ELEMENTOS UNICOS PARA NewsAlertItem (Información para enventos puntuales) SIN USO POR EL MOMENTO
                 <Col xs={12} className='new-txt-footer-box'>
                     <Container className='new-txt-footer'>

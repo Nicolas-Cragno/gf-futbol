@@ -22,7 +22,7 @@ export default function InfoTxt(props) {
                                     <Col xs={12} className='info-txt-title'>
                                         <h2 className='info-txt-h2'>{title}</h2>
                                     </Col>
-                                    <Col xs={12}>
+                                    <Col xs={12} className='info-txt-txt'>
                                         <h6 className='info-txt-h6'>{txt}</h6>
                                     </Col>
                                 </Row>
@@ -40,7 +40,7 @@ export default function InfoTxt(props) {
                                     <Col xs={12} className='info-txt-title'>
                                         <h2 className='info-txt-h2'>{title}</h2>
                                     </Col>
-                                    <Col xs={12}>
+                                    <Col xs={12} className='info-txt-txt'>
                                         <h6 className='info-txt-h6'>{txt}</h6>
                                     </Col>
                                 </Row>

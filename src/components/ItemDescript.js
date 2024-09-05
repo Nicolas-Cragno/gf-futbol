@@ -8,23 +8,35 @@ export default function ItemDescript(props) {
     <div className='item-descript'>
         <Container>
             <Row>
-                <Col md={4} className='item-descript-left'>
-                    <img src={img} className='item-descript-img'></img>
+                {/*
+                <Col md={2} className='item-descript-left'>
                 </Col>
-                <Col md={8} className='item-descript-right'>
+                */}
+                <Col md={12} className='item-descript-right'>
                     <Container>
                         <Row>
-                            <Col xs={12}>
-                            <h4 className='item-descript-title'>{title}</h4>
+                            <Col xs={12} className='item-descript-top'>
+                                <Container>
+                                    <Row>
+                                        <Col md={2}>
+                                            <img src={img} className='item-descript-img'></img>
+                                        </Col>
+                                        <Col md={10} className='item-txt-left'>
+                                            <h4 className='item-descript-txt1'>{title}</h4>
+                                        </Col>
+                                    </Row>
+                                </Container>
                             </Col>
+                            {/*
                             <Col xs={12}>
-                            <h6 className='item-descript-txt1'>{txt1}</h6>
+                                <h5 className='item-descript-txt2'>{txt1}</h5>
                             </Col>
-                            <Col xs={12}>
-                            <h6 className='item-descript-txt1'>{txt2}</h6>
-                            </Col>
+                             */}
                         </Row>
                     </Container>
+                </Col>
+                <Col xs={12} className='item-descript-bottom'>
+                    <h6 className='item-descript-txt3'>{txt2}</h6>
                 </Col>
             </Row>
         </Container>  

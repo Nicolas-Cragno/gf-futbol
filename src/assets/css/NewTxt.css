@@ -19,10 +19,12 @@
 
 .new-txt-box{
     width: 100%;
-    height: 80px; /* valor en px para que el cuadro de texto tenga el mismo alto y no se muevan los elementos */
+    height: 190px; /* valor en px para que el cuadro de texto tenga el mismo alto y no se muevan los elementos */
+    /* en desuso porque bloquee las declaraciones de las noticias, no hace falta scroll 
     overflow-y: scroll;
+    */
     @media screen and (max-width:1200px) {
-        height: 150px;
+        height: 350px;
     }
    
 }
