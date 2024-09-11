@@ -13,12 +13,12 @@ export default function Contact() {
       phone={'+54 9 11 3860 9659'}
       mail={'gffutboltactico@gmail.com'}
       red1={LogoWpp}
-      link1={''}
+      url1={'https://maps.app.goo.gl/ubwSXgzU8p9BdYTj7'}
       red2={LogoInstagram}
-      link2={''}
+      url2={'https://www.instagram.com/gffutbol/'}
       red3={LogoYoutube}
-      link3={''}
-      target={''}
+      url3={'https://www.youtube.com/@gffutbol1570'}
+      target={'_blank'}
       ></TxtDescription>
     </div>
   )

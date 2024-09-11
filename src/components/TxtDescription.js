@@ -11,7 +11,7 @@ import LogoInstaColor from '../assets/statics/LogoInstagram.png';
 import LogoYoutubeColor from '../assets/statics/LogoYoutube.png';
 
 export default function TxtDescription(props) {
-    const {address, phone, mail, red1, link1, red2, link2, red3, link3, red4, link4, target} = props;
+    const {address, phone, mail, red1, url1, red2, url2, red3, url3, red4, url4, target} = props;
   return (
     <div className='txt-description'>
         <Container>
@@ -37,11 +37,11 @@ export default function TxtDescription(props) {
                 <Col xs={12} className='txt-description-block'>
                     <LinksBar
                     img1={LogoWppColor}
-                    link1={''}
+                    link1={url1}
                     img2={LogoInstaColor}
-                    link2={''}
+                    link2={url2}
                     img3={LogoYoutubeColor}
-                    link3={''}
+                    link3={url3}
                     target={'_blank'}
                     ></LinksBar>
                 </Col>
