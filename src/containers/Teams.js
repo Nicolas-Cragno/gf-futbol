@@ -27,12 +27,7 @@ export default function Teams() {
             <ItemDescript
             img={Logo}
             title={'GF Burzaco'}
-            txt2={'Lunes y miércoles 19:45 hs'}
-            ></ItemDescript>
-            <ItemDescript
-            img={Logo}
-            title={'GF Buenos Aires'}
-            txt2={'Lunes y miércoles 19:45 hs'}
+            txt2={'Domingos en NP Torneos'}
             ></ItemDescript>
           </Col>
           {/* ------------------------------------- - - - - FUTBOL FEMENINO ↓↓*/}
@@ -42,21 +37,20 @@ export default function Teams() {
             <ItemDescript
             img={Logo}
             title={'GF Santa Rita'}
-            txt2={'Jueves 20:45 hs'}
+            txt2={'Sabados en Fui a la Pelota'}
             ></ItemDescript>
           </Col>
           {/* ------------------------------------- - - - - ENTRENAMIENTOS ↓↓  */}
           <Col md={4} className='teams-txt-box'>
             <h3 className='teams-txt-h3'>Entrenamiento Libre</h3>
-            <h2 className='teams-txt-h2'>2 grupos</h2>
             <ItemDescript
               img={LogoEntrenamiento}
-              title={'F11 Masculino'}
-              txt2={'Lunes y miércoles 19:45 hs'}
+              title={'Masculino'}
+              txt2={'Lunes 19:30 a 21 & Miercoles 21 a 22 hs'}
             ></ItemDescript>
             <ItemDescript
               img={LogoEntrenamiento}
-              title={'F5 Femenino'}
+              title={'Femenino'}
               txt2={'Jueves 20:45 hs'}
             ></ItemDescript>
           </Col>
